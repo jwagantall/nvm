@@ -31,6 +31,7 @@ jobs:
         suite:
           - install_script
           - sourcing
+          - installation_iojs WITHOUT_CURL=1
         shell:
           - sh
           - bash
